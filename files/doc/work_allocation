@@ -1,0 +1,60 @@
+分工
+    方案/整体架构/架构支持/工作安排/整体控制
+        Ryder
+            architect/overall control
+        Ryder
+        Hoky
+            btman
+            HFPman
+            ble
+            other applicatoins
+                btapp/btstack
+            lantern
+    wifi streaming
+        Hoky
+        Kim
+            avs
+            other applicatoins
+                avsi
+                qplay
+                    Amlogic
+                airplay
+                spotify
+                dlna(AMLogc)
+            volume
+    GPIO/AMP/Power Management/
+        Kim
+        Owen
+            devpwr
+            source
+            playerstate
+            indication and tone control
+                indication
+                icon
+                ConnectIcon
+            playpause
+            misc
+            amp
+            gpio
+            BSP support
+    wifi/blutooth control/Bat Management
+        Owen
+        Eric
+            faultm
+            ampt
+            PwrDlvr
+            Bat
+            Charger
+            Factory Support
+    LED/OTA
+        Richard
+            ota
+            actmanota
+            led driver
+    Shared Modules:Any one can maintain relative parts as needed
+        actuators
+    current resources support
+        Watson
+    AMLogic 功能开发指引/开发环境准备
+        all
+

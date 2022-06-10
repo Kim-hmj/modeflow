@@ -1,0 +1,68 @@
+Backlogs{
+	Sprint1{
+		Ryder{
+			modeflow self syntax check
+				getModuleMode from shm
+				coupling too much, use msg
+				multimode support in modeflow
+		}
+		Hoky{
+			flowdsp porting
+		}
+		Kim{
+			wakeword逻辑识别
+				run AVS
+		}
+		Owen{
+			adk porting
+				protobuf
+				adk message
+				adk service
+				led manager
+				seq lite
+		}
+		Eric{
+			indicaton debug
+		}
+	}
+	Sprint2{
+		Ryder{
+			avs volume debug
+		}
+		Hoky{
+			avs bluez与现有蓝牙方案的整合
+				只用avs的bluez
+		}
+		Kim{
+			avs test
+				AMLogic
+				Qualcomm
+		}
+		Owen{
+			script to test whether speaker can hibernate well
+		}
+		Eric{
+			bootloader led control
+				uboot
+		}
+	}
+	later{
+		Ryder{
+			modeflow porting
+		}
+		Hoky{
+			bluetooth volume syncronization:
+				test in qualcom
+		}
+		Kim{
+			avs upgrade
+				amlogic
+		}
+		Owen{
+		}
+		Eric{
+			led control:
+				amlogic
+		}
+	}
+}

@@ -1,0 +1,82 @@
+TestCase
+    Senario
+        Factory Reset
+        Bootloader booting:all icon leds on(white)
+        Startup
+            top button leds pules
+            usb led pules(indicating charging/discharging/full) if typec cable connected
+        BTConnectionTest
+            pair
+		connect_lh to pair
+        PlalyBTMusic
+            BTConnect
+            Play
+                Volume Sync Test
+                pause
+                next
+                previous
+                volume change
+                    single press
+                    long hold
+                bass toggle
+	    Standdby Timer: device go to  standby 20 min after play stopped.
+            Disconnect:device shall to to standby by.
+        switch Source
+        wifiConnectionTest
+            connectWifi
+        PlayWifiMusic
+            airplay
+                volume sync
+                volume change
+            spotify
+                volume sync
+                volume change
+            avs
+                volume sync
+                volume change
+            FualtM
+                AMP fault:simulate amp fault
+        Dock:simulate Dock
+            BLE connection
+            FaultM:simulate fault
+                Bat fault
+            OTA:special test(Rihcard responsible)
+        UnDock
+        PowerOff
+            Charge
+                FaultM
+                    Bat fault
+            OTG:charge out
+            Hiberrnate Check
+            Dock
+        PowerOn
+        wifiReconnectTest
+        playwifiMusic
+        swich source
+        BtReconnectTest
+        playBtMusic
+        PowerOff
+        PowerOn
+        BtReconnect Test
+        playBtMusic
+            StandbyTimer
+        PowerOff
+            TimeOutOff
+    CheckItem
+        led
+        tone
+        audio when playing music
+    Campfire
+        Enter Campfire Mode (long hold ACTION + LANTERN)
+            play stored campfire sound if no music playing
+            will not play stored campfire sound if music playing
+            show campfire animation
+			stop stored campfire sound if music is played
+			play stored campfire sound if music is paused
+        Exit Campfire Mode (single|double press or long hold LANTERN/CONNECT)
+			stop campfire animation
+            stop stored campfire sound, but never pause if music playing
+        Enter Docked Mode
+			stop campfire animation
+            stop stored campfire sound or music
+	log(monitormfl.sh all)
